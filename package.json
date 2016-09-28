@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-replace-with-index-html",
+    "description": "Replacing ./ with index.html",
+    "main": "index.js",
+    "version": "1.0.7",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/imvuong/gitbook-plugin-replace-with-index-html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imvuong/gitbook-plugin-replace-with-index-html"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/imvuong/gitbook-plugin-replace-with-index-html/issues"
+    }
+}
