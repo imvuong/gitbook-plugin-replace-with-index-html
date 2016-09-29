@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-replace-with-index-html",
     "description": "Replacing ./ with index.html",
     "main": "index.js",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "engines": {
         "gitbook": "*"
     },

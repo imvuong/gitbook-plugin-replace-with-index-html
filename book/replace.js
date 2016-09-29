@@ -5,8 +5,8 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
       $(document).ready(function () {
           $('a').not('[href^="http"],[href^="https"],[href^="mailto:"],[href*=".html#"],[href$=".html"]').each(function () {
               $(this).attr('href', function (index, value) {
-                  if (value === "./") {
-                      value = "index.html";
+                  if (value.charAt(0) === '.' && value.slice(-1) === "/") {
+                      value = value + "index.html";
                   }
                   return value;
               });
